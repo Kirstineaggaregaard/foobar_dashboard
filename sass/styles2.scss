@@ -1,0 +1,30 @@
+$primary-color: #fdfaf5;
+$secondary-color: #2e363b;
+$buttoncolor: #f2e9df;
+$buttonwidth: 305px;
+$buttonheight: 48px;
+$yellow: #e7c375;
+$lightblue: #b5c5db;
+$darkblue: #7c8ea6;
+$beige: #f2e9df;
+$darkest: #141e26;
+
+* {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+button {
+  background-color: $buttoncolor;
+  color: $secondary-color;
+  width: $buttonwidth;
+  height: $buttonheight;
+  border: none;
+  font-family: gill-sans-nova, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 22px;
+}

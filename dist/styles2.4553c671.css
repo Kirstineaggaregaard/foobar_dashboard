@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+button {
+  background-color: #f2e9df;
+  color: #2e363b;
+  width: 305px;
+  height: 48px;
+  border: none;
+  font-family: gill-sans-nova, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 22px;
+}
+
+/*# sourceMappingURL=/styles2.4553c671.css.map */

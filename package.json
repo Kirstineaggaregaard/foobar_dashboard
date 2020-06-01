@@ -1,0 +1,27 @@
+{
+  "name": "foobar_dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel *.html --open",
+    "build": "parcel build *.html --public-url ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christinamj/foobar_dashboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christinamj/foobar_dashboard/issues"
+  },
+  "homepage": "https://github.com/christinamj/foobar_dashboard#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-static-files-copy": "^2.3.1",
+    "sass": "^1.26.7"
+  }
+}

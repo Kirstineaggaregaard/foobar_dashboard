@@ -1,0 +1,597 @@
+* {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+button {
+  background-color: #f2e9df;
+  color: #2e363b;
+  width: 305px;
+  height: 48px;
+  border: none;
+  font-family: gill-sans-nova, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 22px;
+}
+
+main {
+  height: 50vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-gap: 25px;
+  background-color: #fdfaf5;
+  padding: 30px;
+}
+
+#serving_sec {
+  grid-column: 1/2;
+  grid-row: 1/10;
+  background-color: #e7c375;
+  height: 60vh;
+}
+
+#bartenders_sec {
+  grid-column: 1/2;
+  grid-row: 10/20;
+  background-color: #b5c5db;
+}
+
+#favorite_sec {
+  grid-column: 2/6;
+  grid-row: 1/20;
+  background-color: #f2e9df;
+}
+
+#people_sec {
+  grid-column: 6/10;
+  grid-row: 1/8;
+  background-color: #7c8ea6;
+}
+
+#picture_sec {
+  grid-column: 6/10;
+  grid-row: 8/20;
+  background-image: url("/sharedpic.d2edaadd.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+#logo_sec {
+  grid-column: 10/11;
+  grid-row: 1/20;
+  background-color: #141e26;
+}
+
+.logo {
+  font-family: fino-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.logo_sec {
+  grid-column: 9/10;
+  grid-row: 1/20;
+}
+
+.serving_h1 {
+  font-family: gill-sans-nova, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 4.5em;
+  padding-left: 80px;
+}
+
+.numbers {
+  display: flex;
+  justify-content: center;
+}
+
+.being_served {
+  height: 16vh;
+  width: 6.5vw;
+  background-color: #fdfaf5;
+  box-shadow: 3px 3px 11px 4px rgba(84, 84, 84, 0.63);
+  border-radius: 10px;
+  margin: 10px;
+  font-size: 2.5em;
+  font-family: gill-sans-nova, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  padding-top: 2vw;
+}
+
+#liste {
+  display: flex;
+  justify-content: center;
+}
+
+#liste2 {
+  margin-top: 3.5vw;
+  display: flex;
+  justify-content: center;
+}
+
+#liste3 {
+  display: flex;
+  justify-content: center;
+}
+
+.small_numbers {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 9vw;
+}
+
+.being_prepared {
+  height: 10vh;
+  width: 4vw;
+  background-color: #fdfaf5;
+  box-shadow: 3px 3px 11px 4px rgba(84, 84, 84, 0.63);
+  border-radius: 10px;
+  margin: 15px;
+  margin-bottom: 1vw;
+  font-size: 1.5em;
+  font-family: gill-sans-nova, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  padding-top: 1vw;
+}
+
+.small_con {
+  display: flex;
+}
+
+main .prepared_h2 {
+  padding-left: 5vw;
+  color: white;
+  font-size: 2.2em;
+  position: fixed;
+}
+
+.bartender_status {
+  height: 2vh;
+  width: 1vw;
+  border-radius: 50%;
+  margin-left: 3.5vw;
+}
+
+.article_bartenders {
+  padding: 25px;
+}
+
+.bartender_name {
+  font-family: gill-sans-nova, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2em;
+}
+
+h2 {
+  font-family: gill-sans-nova, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2em;
+}
+
+h3 {
+  font-family: gill-sans-nova, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 5em;
+}
+
+.fave_headline {
+  height: 5vh;
+  padding-top: 5vh;
+}
+
+h4 {
+  font-family: gill-sans-nova, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.5em;
+}
+
+.fave_top {
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+}
+
+.beer_img {
+  margin-top: 6vh;
+  margin-left: 3vw;
+  height: 20vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-image: url("/beer1.8af611c9.svg");
+  display: block;
+}
+
+.people_svg img {
+  height: 10vh;
+  width: 10vw;
+  color: white;
+}
+
+.people_h2 {
+  display: flex;
+  justify-content: center;
+  color: #fdfaf5;
+}
+
+.bartender_h2 {
+  padding-left: 3vw;
+}
+
+.logo_h1 {
+  position: relative;
+  font-size: 4em;
+  color: white;
+  font-family: fino-sans, sans-serif;
+  animation-name: logo;
+  animation-duration: 4s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: inherit;
+  position: relative;
+  transform: rotate(90deg);
+  max-width: 3vw;
+}
+
+.logo_2 {
+  font-size: 4em;
+  color: white;
+  font-family: fino-sans, sans-serif;
+  animation-name: logo;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: inherit;
+  animation-timing-function: linear;
+  position: relative;
+  transform: rotate(90deg);
+  max-width: 3vw;
+  margin-top: 15vw;
+}
+
+.logo_3 {
+  font-size: 4em;
+  color: white;
+  font-family: fino-sans, sans-serif;
+  animation-name: logo;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  position: relative;
+  transform: rotate(90deg);
+  max-width: 3vw;
+  margin-top: 15vw;
+}
+
+@keyframes logo {
+  0% {
+    top: -110vh;
+  }
+  100% {
+    top: 90vh;
+  }
+}
+@keyframes logo2 {
+  0% {
+    top: -30vh;
+  }
+  100% {
+    top: 50vh;
+  }
+}
+@media only screen and (max-width: 800px) {
+  main {
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    grid-template-rows: 100px 100px;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #serving_sec {
+    grid-column: 1/10;
+    grid-row: 1/10;
+  }
+
+  #bartenders_sec {
+    grid-column: 1/10;
+    grid-row: 10/20;
+  }
+
+  #favorite_sec {
+    grid-column: 1/6;
+    grid-row: 25/20;
+  }
+
+  #people_sec {
+    grid-column: 6/10;
+    grid-row: 25/22;
+  }
+
+  #picture_sec {
+    grid-column: 6/10;
+    grid-row: 23/20;
+  }
+
+  #logo_sec {
+    grid-column: 10/11;
+    grid-row: 1/25;
+  }
+
+  #liste {
+    justify-content: center;
+  }
+
+  #liste2 {
+    margin-top: 2vh;
+    justify-content: left;
+    margin-left: 4vw;
+  }
+
+  .serving_h1 {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .bartender_h2 {
+    text-align: center;
+    padding-left: 0;
+    margin-left: 0;
+    margin-top: 1vw;
+  }
+
+  .being_served {
+    height: 18vh;
+    width: 15vw;
+    background-color: #fdfaf5;
+    box-shadow: 3px 3px 11px 4px rgba(84, 84, 84, 0.63);
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 2.5em;
+    font-family: gill-sans-nova, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding-top: 5vh;
+  }
+
+  main .prepared_h2 {
+    padding-top: 3vh;
+    position: relative;
+  }
+
+  .being_prepared {
+    height: 12vh;
+    width: 12vw;
+    background-color: #fdfaf5;
+    box-shadow: 3px 3px 11px 4px rgba(84, 84, 84, 0.63);
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 2.5em;
+    font-family: gill-sans-nova, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding-top: 2vh;
+  }
+
+  .logo_h1 {
+    position: relative;
+    font-size: 4em;
+    color: white;
+    font-family: fino-sans, sans-serif;
+    animation-name: logo;
+    animation-duration: 4s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: inherit;
+    position: relative;
+    transform: rotate(90deg);
+    max-width: 5vw;
+  }
+
+  .logo_2 {
+    font-size: 4em;
+    color: white;
+    font-family: fino-sans, sans-serif;
+    animation-name: logo;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: inherit;
+    animation-timing-function: linear;
+    position: relative;
+    transform: rotate(90deg);
+    max-width: 5vw;
+    margin-top: 30vw;
+  }
+
+  .logo_3 {
+    font-size: 4em;
+    color: white;
+    font-family: fino-sans, sans-serif;
+    animation-name: logo;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: relative;
+    transform: rotate(90deg);
+    max-width: 5vw;
+    margin-top: 30vw;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  main {
+    grid-gap: 10px;
+    padding: 15px;
+  }
+
+  #serving_sec {
+    grid-column: 1/10;
+    grid-row: 1/10;
+  }
+
+  #bartenders_sec {
+    grid-column: 1/10;
+    grid-row: 10/20;
+  }
+
+  #favorite_sec {
+    grid-column: 1/6;
+    grid-row: 25/20;
+  }
+
+  #people_sec {
+    grid-column: 6/10;
+    grid-row: 25/22;
+  }
+
+  #picture_sec {
+    grid-column: 6/10;
+    grid-row: 23/20;
+  }
+
+  #logo_sec {
+    grid-column: 10/11;
+    grid-row: 1/25;
+  }
+
+  h4 {
+    font-size: 0.5em;
+  }
+
+  h3 {
+    font-size: 1.8em;
+  }
+
+  .beer_img {
+    margin-left: 0;
+  }
+
+  #liste {
+    justify-content: center;
+  }
+
+  #liste2 {
+    margin-top: 2vh;
+    justify-content: left;
+    margin-left: 4vw;
+  }
+
+  .serving_h1 {
+    text-align: center;
+    padding-left: 0;
+    font-size: 3.5em;
+  }
+
+  .bartender_h2 {
+    text-align: center;
+    padding-left: 0;
+    margin-left: 0;
+    margin-top: 1vw;
+    font-size: 2em;
+  }
+
+  .being_served {
+    height: 15vh;
+    width: 18vw;
+    background-color: #fdfaf5;
+    box-shadow: 3px 3px 11px 4px rgba(84, 84, 84, 0.63);
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 2.5em;
+    font-family: gill-sans-nova, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding-top: 5vh;
+    font-size: 1.5em;
+  }
+
+  main .prepared_h2 {
+    padding-top: 3vh;
+    position: relative;
+    font-size: 2em;
+  }
+
+  .being_prepared {
+    height: 9vh;
+    width: 12vw;
+    background-color: #fdfaf5;
+    box-shadow: 3px 3px 11px 4px rgba(84, 84, 84, 0.63);
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 1em;
+    font-family: gill-sans-nova, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding-top: 2vh;
+  }
+
+  .logo_h1 {
+    position: relative;
+    font-size: 1.8em;
+    color: white;
+    font-family: fino-sans, sans-serif;
+    animation-name: logo;
+    animation-duration: 4s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: inherit;
+    position: relative;
+    transform: rotate(90deg);
+    max-width: 5vw;
+  }
+
+  .logo_2 {
+    font-size: 1.8em;
+    color: white;
+    font-family: fino-sans, sans-serif;
+    animation-name: logo;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: inherit;
+    animation-timing-function: linear;
+    position: relative;
+    transform: rotate(90deg);
+    max-width: 5vw;
+    margin-top: 30vw;
+  }
+
+  .logo_3 {
+    font-size: 1.8em;
+    color: white;
+    font-family: fino-sans, sans-serif;
+    animation-name: logo;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: relative;
+    transform: rotate(90deg);
+    max-width: 5vw;
+    margin-top: 30vw;
+  }
+}
+
+/*# sourceMappingURL=/styles.8206c151.css.map */
